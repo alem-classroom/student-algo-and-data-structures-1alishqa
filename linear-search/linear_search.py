@@ -5,7 +5,6 @@ def linear_search(lst, to_find):
   for i in lst:
     if i == to_find:
       return count
-      break
     count = count + 1
 
   return -1
