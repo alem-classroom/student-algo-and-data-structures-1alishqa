@@ -1,6 +1,6 @@
 def linear_search(lst, to_find):
 
-  count = 0
+  count = 1
 
   for i in lst:
     if i == to_find:
@@ -13,5 +13,5 @@ def linear_search(lst, to_find):
   # if found, return index of element
   # else return -1
 
-# print(linear_search(([5, 6, 'seven', 10]), 'seven'))
+# print(linear_search(([5, 6, 'seven', 10]), 10))
 # print(linear_search(([5, 6, 'seven', 10]), 'sevenTY'))
