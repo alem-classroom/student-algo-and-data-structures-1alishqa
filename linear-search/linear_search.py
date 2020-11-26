@@ -1,6 +1,6 @@
 def linear_search(lst, to_find):
 
-  count = 1
+  count = 0
 
   for i in lst:
     if i == to_find:
